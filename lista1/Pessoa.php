@@ -45,14 +45,6 @@
         }
     }
 
-    class Univesidade {
-        public $nome;
-
-        public function informaNome() {
-            return $this->nome;
-        }
-    }
-
     $fulano = new Pessoa("Fulano", 25, 5, 2000);
 
     $cicloPentano = new Pessoa("Ciclo", 28, 11, 2004);
