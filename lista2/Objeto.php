@@ -56,7 +56,7 @@
     $triangulo = new Triangulo(10, 20);
     echo $triangulo->calculaArea() . PHP_EOL;
 
-    $retangulo = new Retangulo(20, 20);
+    $retangulo = new Retangulo(20, 30);
     echo $retangulo->isQuadrado() . PHP_EOL;
     echo $retangulo->calculaArea() . PHP_EOL;
 ?>
